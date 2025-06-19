@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Bytecode
+*.pyc
+*.pyo
+
+# PostgreSQL dump, temp files
+# *.sql
+# *.dump
+# *.db
+
+# Uvicorn logs
+*.pid
