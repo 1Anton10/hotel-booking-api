@@ -5,14 +5,16 @@
 1. Установите зависимости:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt || pip3 install -r requirements.txt
 ```
 
 2. Создайте базу данных PostgreSQL `hotel_booking` и настройте `.env` или `database.py`
 
 3. Выполните инициализацию таблиц:
 
-python3 ->
+```python
+python3 || python
+```
 
 ```python
 from app import models, database
