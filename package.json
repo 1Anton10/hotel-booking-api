@@ -1,0 +1,24 @@
+{
+  "name": "hotel-booking-api",
+  "version": "1.0.0",
+  "description": "API for hotel room booking",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^3.1.0",
+    "pg": "^8.16.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12",
+    "prisma": "^6.10.1"
+  }
+}
